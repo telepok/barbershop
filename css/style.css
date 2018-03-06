@@ -1,187 +1,195 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
     
-    font-family: 'PT Sans Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 24px;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
 
-    background-image: url("../img/bg.jpg");
-    background-position: center top;
-    background-color: #000;
-    background-repeat: no-repeat;
+  background-image: url("../img/bg.jpg");
+  background-position: center top;
+  background-color: #000;
+  background-repeat: no-repeat;
 }
 
 .container {
-    width: 940px;
-    padding: 10px;
-    margin: 0 auto;
+  width: 940px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .main-header {
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 75px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 75px;
 }
 
 .main-header a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .main-navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .main-navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-navigation-wrapper {
-    width: 100%;
-    background-color: #000;
-    margin-bottom: 60px;
+  width: 100%;
+  background-color: #000;
+  margin-bottom: 60px;
 }
 
 .main-navigation-wrapper .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .site-navigation {
-    width: 620px;
+  width: 620px;
   }
   
-  .user-navigation {
-    width: 140px;
-  } 
+.user-navigation {
+  width: 140px;
+} 
   
 .main-header-logo {
-    order: 1;
+  order: 1;
 }
 
 .features {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .features ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .features li {
-    width: 300px;
-    text-align: center;
+  width: 300px;
+  text-align: center;
 }
 
 .features h3 {
-    font-size: 30px;
-    line-height: 42px;
+  font-size: 30px;
+  line-height: 42px;
 }
 
 .index-columns {
-    display: flex;
-    justify-content: space-between;
-    min-height: 420px;
-    background-color: #f8f5f2;
-    background-image: url("../img/pattern-light.png");
-    color: #000;
-    padding: 50px 80px;
-    margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 420px;
+  background-color: #f8f5f2;
+  background-image: url("../img/pattern-light.png");
+  color: #000;
+  padding: 50px 80px;
+  margin-bottom: 35px;
 }
 
 .news {
-    width: 380px;
+  width: 380px;
 }
 
 .news a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .news h2 {
-    font-size: 30px;
-    line-height: 42px;    
+  font-size: 30px;
+  line-height: 42px;    
 }
 
 .news ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .news time {
-    text-transform: none;
+  text-transform: none;
 }
 
 .gallery {
-    width: 300px;
+  width: 300px;
 }
 
 .gallery h2 {
-    font-size: 30px;
-    line-height: 42px;        
+  font-size: 30px;
+  line-height: 42px;        
 }
 
 .contacts h2,
 .appointment h2 {
-    font-size: 30px;
-    line-height: 42px;        
+  font-size: 30px;
+  line-height: 42px;        
 } 
 
 .contacts {
-    width: 380px;    
+  width: 380px;    
 }
 
 .contacts a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .appointment {
-    width: 300px;
+  width: 300px;
 }
 
 .appointment-item input {
-    font: inherit;
-    background: transparent;
-    border: 2px solid #000;
+  font: inherit;
+  background: transparent;
+  border: 2px solid #000;
 }
 
 .appointment-item input:focus {
-    border-color: #663d15;
-    outline: none;
+  border-color: #663d15;
+  outline: none;
 }
 
 .main-footer {
-    margin-top: 65px;
-    background: #222222 url("../img/pattern-dark.png");
+  margin-top: 65px;
+  background: #222222 url("../img/pattern-dark.png");
 }
 
 .main-footer .container {
-    display: flex;
+  display: flex;
 }
 
 .main-footer .footer-contacts {
-    width: 320px;
-    margin-right: 80px; 
+  width: 320px;
+  margin-right: 80px; 
+}
+
+.main-footer .footer-contacts a {
+  color: #fff;    
 }
 
 .main-footer .footer-social {
-    width: 140px;
-    margin-right: 260px; 
+  width: 140px;
+  margin-right: 260px; 
+}
+
+.main-footer .footer-social ul {
+  list-style-type: none
 }
 
 .main-footer .footer-copyright {
-    width: 130px;
+  width: 130px;
 }
