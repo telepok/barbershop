@@ -67,11 +67,16 @@ body {
   order: 1;
 }
 
+/* Для IE11 */
+main {
+  display: block;
+}
+
 .features {
   margin-bottom: 80px;
 }
 
-.features ul {
+.features-list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
