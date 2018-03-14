@@ -16,6 +16,15 @@ body {
   min-width: 960px;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -32,6 +41,23 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+
+  padding: 10px 30px;
+  
+  background-color: #000;
+  font: inherit;
+  color: #fff;
+
+  border: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: #663d15;
 }
 
 .container {
@@ -186,7 +212,8 @@ main {
   background-color: #f8f5f2;
   background-image: url("../img/pattern-light.png");
   color: #000;
-  padding: 50px 80px;
+  padding: 45px 80px;
+  padding-bottom: 50px;
   margin-bottom: 36px;
 }
 
@@ -194,15 +221,11 @@ main {
   width: 380px;
 }
 
-.news a {
-  color: #000;
-  text-decoration: none;
-}
-
 .news h2 {
   font-size: 30px;
   line-height: 42px;    
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .news ul {
@@ -211,8 +234,25 @@ main {
   padding: 0;
 }
 
+.news-item {
+  margin-bottom: 22px;
+}
+
+.news-item:last-child {
+  margin-bottom: 28px;
+}
+
+.news-item p {
+  margin: 0;
+}
+
 .news time {
   text-transform: none;
+}
+
+.news .button {
+  width: 76px;
+  padding-left:34px;
 }
 
 .gallery {
@@ -223,6 +263,39 @@ main {
   font-size: 30px;
   line-height: 42px;        
   margin: 0;
+  margin-bottom: 22px;
+}
+
+.gallery-container {
+  position: relative;
+
+  height: 260px;
+}
+
+.gallery-content {
+  margin: 0;
+  height: 164px;
+  border: 7px solid #fff;
+}
+
+.gallery-content img {
+  width: 286px;
+  height: 164px;
+}
+
+.gallery-button {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  width: 140px;
+}
+
+.gallery-button-back {
+  left: 0;
+}
+
+.gallery-button-next {
+  right: 0;
 }
 
 .index-columns:last-child {
