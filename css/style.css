@@ -46,6 +46,8 @@ input[type="radio"].visually-hidden {
 .button {
   display: inline-block;
 
+  margin-right: 16px;
+
   padding: 10px 30px;
   
   background-color: #000;
@@ -210,7 +212,10 @@ main {
   justify-content: space-between;
   min-height: 319px;
   background-color: #f8f5f2;
-  background-image: url("../img/pattern-light.png");
+  background-image: url("../img/divider_shadow.png"),
+    url("../img/pattern-light.png");
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
   color: #000;
   padding: 45px 80px;
   padding-bottom: 50px;
@@ -288,6 +293,7 @@ main {
   position: absolute;
   bottom: 0;
   width: 140px;
+  margin-right: 0;
 }
 
 .gallery-button-back {
@@ -300,13 +306,15 @@ main {
 
 .index-columns:last-child {
   min-height: 335px;
+  padding-bottom: 48px;
 }
 
 .contacts h2,
 .appointment h2 {
   font-size: 30px;
-  line-height: 42px;       
-  margin: 0; 
+  line-height: 42px;    
+  margin: 0;
+  margin-bottom: 20px;
 } 
 
 .contacts {
@@ -314,22 +322,51 @@ main {
 }
 
 .contacts a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
+}
+
+.contacts p {
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .appointment {
   width: 300px;
 }
 
-p.appointment-item {
+.appointment-info {
   margin: 0;
+  margin-bottom: 10px;
+}
+
+.appointment-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.appointment-item {
+  width: 140px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.appointment-item label {
+  display: block;
+  margin-bottom: 7px;
+  margin-left: 19px;
 }
 
 .appointment-item input {
+  box-sizing: border-box;
+  width: 140px;
   font: inherit;
   background: transparent;
   border: 2px solid #000;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 7px;
 }
 
 .appointment-item input:focus {
@@ -337,8 +374,16 @@ p.appointment-item {
   outline: none;
 }
 
+.appointment .button {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 0;
+}
+
 .main-footer {
   margin-top: 65px;
+  padding: 60px 0;
+
   background: #222222 url("../img/pattern-dark.png");
 }
 
@@ -348,22 +393,71 @@ p.appointment-item {
 
 .main-footer .footer-contacts {
   width: 320px;
+  margin: 0;
   margin-right: 80px; 
 }
 
 .main-footer .footer-contacts a {
   color: #fff;    
+  text-decoration: underline;
 }
 
 .main-footer .footer-social {
-  width: 140px;
+  width: 141px;
   margin-right: 260px; 
+  text-align: center;
+}
+
+.footer-social b {
+  display: block;
+  margin-bottom: 13px;
 }
 
 .main-footer .footer-social ul {
-  list-style-type: none
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;  
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: #000;
+}
+
+.social-btn:hover {
+  background-color: #fff;
+}
+
+.social-btn:hover path {
+  fill: #000;
 }
 
 .main-footer .footer-copyright {
-  width: 130px;
+  width: 140px;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-copyright b {
+  display: block;
+  margin-bottom: 13px;
+}
+
+.footer-copyright .button {
+  padding: 0;
+  width: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-copyright .button:hover {
+  color: #000;
+  background-color: #fff;  
 }
