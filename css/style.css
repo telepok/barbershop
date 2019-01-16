@@ -461,3 +461,76 @@ main {
   color: #000;
   background-color: #fff;  
 }
+
+/* 
+***Страница каталога**********************************************************
+*/
+
+.inner-page {
+  background-color: #f9f6f3;
+  background-image: url("img\pattern-light.png");
+  color: #000;
+}
+
+.inner-page .main-navigation {
+  flex-direction: row;
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+}
+
+.inner-page .main-header {
+  background-color: #000;
+}
+
+.inner-page .user-navigation {
+  margin-left: auto;
+}
+
+.breadcrumbs ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.breadcrumbs li {
+  margin-right: 40px;
+}
+
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 220px;
+}
+
+.catalog {
+  width: 700px;
+  /* outline: #000 solid; */  
+}
+
+.catalog > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 600px;  
+  align-content: space-between;
+}
+
+.catalog > ul li {
+  background-color: #fff;
+}
+
+.gallery-item {
+  width: 220px;
+  height: 286px;  
+  /* background-color: #fff; */
+  /* margin-bottom: 20px; */
+}
