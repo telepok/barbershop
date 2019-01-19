@@ -472,6 +472,10 @@ main {
   color: #000;
 }
 
+.inner-page .main-header {
+  margin-bottom: 60px;
+}
+
 .inner-page .main-navigation {
   flex-direction: row;
 }
@@ -488,11 +492,27 @@ main {
   margin-left: auto;
 }
 
+.inner-page h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
 .breadcrumbs ul{
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
+  margin-bottom: 60px;
+}
+
+.breadcrumbs a {
+  color: #000;
+}
+
+.breadcrumbs .current-page {
+  color: #aba9a7;
 }
 
 .breadcrumbs li {
@@ -508,9 +528,31 @@ main {
   width: 220px;
 }
 
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+legend {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+fieldset ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-position: outside;
+}
+
+fieldset  li {
+  margin-bottom: 15px;
+}
+
 .catalog {
   width: 700px;
-  /* outline: #000 solid; */  
 }
 
 .catalog > ul {
@@ -522,15 +564,83 @@ main {
   list-style: none;
   height: 600px;  
   align-content: space-between;
-}
-
-.catalog > ul li {
-  background-color: #fff;
+  margin-bottom: 45px;
 }
 
 .gallery-item {
   width: 220px;
   height: 286px;  
-  /* background-color: #fff; */
-  /* margin-bottom: 20px; */
+  background-color: #fff;  
+  box-shadow: 0 0 10px #dddad8;
 }
+
+.item-name, 
+.item-brand {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.item-name {
+  text-transform: none;
+  /* margin-top: 15px; */
+}
+
+.item-price {
+  display: inline-block;
+  background-color: #e5e5e5;
+  vertical-align: top;
+  margin: 0;
+  margin-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding-left: 37px; */
+  /* padding-right: 33px; */
+  width: 109px;
+  text-align: center;
+}
+
+.gallery-item .button {
+  margin-right: 0;
+  margin-left: -3px;
+  padding-left: 19px;
+  padding-right: 17px;
+}
+
+.pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.pagination a {
+  display: inline-block;
+  width: 43px;
+  /* height: 43px; */
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  margin-right: 7px;
+}
+
+.pagination .current a {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.inner-page .main-footer {
+  color: #fff;
+}
+
