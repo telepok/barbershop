@@ -630,17 +630,138 @@ fieldset  li {
   color: #000;
 }
 
-
-
-
-
-
-
-
-
-
-
 .inner-page .main-footer {
   color: #fff;
 }
 
+/* 
+*** Страница карточки товара ***************************************************************
+*/
+
+.item-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images {
+  width: 460px;
+}
+
+.small-pics {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.description {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.description .first-line,
+.description .text {
+  margin: 0;
+  padding: 0;  
+}
+
+.description .text {
+  margin-bottom: 65px;
+}
+
+.description .item-price {
+  margin-left: 0;
+}
+
+.description h2 {
+  margin: 0;
+  margin-top: 65px;
+}
+
+.description ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.description li {
+  margin-bottom: 10px;
+}
+
+/* 
+***Страница прайс-лист
+*/
+
+.slogan {
+  margin: 0;
+  font-size: 48px;
+  line-height: normal;
+  margin-bottom: 75px;
+}
+
+.first-price-columns,
+.second-price-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-price-columns {
+  margin-bottom: 70px;
+}
+
+.left-column {
+  width: 390px;
+}
+
+.right-column {
+  width: 460px;
+}
+
+.second-price-columns .right-column p {
+  width: 380px;
+}
+
+h2.price-list {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.first-price-columns ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.first-price-columns li {
+  margin-bottom: 25px;
+}
+
+.first-price-columns li:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  /* border: solid 2px; */
+  border-collapse: collapse;
+}
+
+td {
+  border: solid 2px;
+  width: 230px;
+  height: 40px;
+}
+
+td:first-child {
+  padding-left: 20px;
+}
+
+td:last-child {
+  text-align: center;
+}
